@@ -1,0 +1,31 @@
+@import 'fonts.css';
+@import 'reset.css';
+@import 'grid.css';
+
+:root {
+    --primary-color: #CE7D63;
+    --section-bg-color: #1A1A1A;
+    --title-color: #F9EFEC;
+    --text-color: #B3B3B2;
+    --dark-color: #0F0F0F;
+}
+
+/* 
+
+  -- App --
+
+*/
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    background-color: var(--dark-color);
+    color: var(--text-color);
+    font-family: "flex-rg", Arial, Helvetica, sans-serif;
+}
+
+/* 
+
+  -- Header --
+
+*/
