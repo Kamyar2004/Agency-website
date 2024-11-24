@@ -3,11 +3,21 @@
 @import 'grid.css';
 
 :root {
-    --primary-color: #CE7D63;
-    --section-bg-color: #1A1A1A;
-    --title-color: #F9EFEC;
-    --text-color: #B3B3B2;
-    --dark-color: #0F0F0F;
+  --primary-color: #CE7D63;
+  --section-bg-color: #1A1A1A;
+  --title-color: #F9EFEC;
+  --text-color: #B3B3B2;
+  --dark-color: #0F0F0F;
+}
+
+/* 
+
+  -- Reset Styles --
+
+*/
+
+a {
+  text-decoration: none;
 }
 
 /* 
@@ -17,11 +27,13 @@
 */
 
 body {
-    line-height: 1.6;
-    font-size: 1.6rem;
-    background-color: var(--dark-color);
-    color: var(--text-color);
-    font-family: "flex-rg", Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  background-color: var(--dark-color);
+  color: var(--text-color);
+  font-family: "flex-rg", Arial, Helvetica, sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 /* 
@@ -29,3 +41,50 @@ body {
   -- Header --
 
 */
+
+.header {}
+
+.nav {
+  background-color: var(--section-bg-color);
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.8rem 1.8rem 1.8rem 3.5rem;
+  color: #81807E;
+}
+
+.nav__logo {}
+
+.nav__svg {}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.menu__item {
+  border-radius: 1.2rem;
+  padding: 1.2rem 2rem;
+  background-color: var(--dark-color);
+}
+
+.menu__link {
+  text-transform: uppercase;
+  font-family: "mono-md";
+  color: inherit;
+}
+
+.menu__item:last-child {
+  background-color: var(--primary-color);
+}
+
+.menu__item:last-child .menu__link {
+  color: var(--dark-color);
+}
+
+.menu__item--active {
+  color: #E7BEB1;
+}

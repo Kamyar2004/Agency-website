@@ -11,8 +11,6 @@ html {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -381,9 +379,9 @@ html {
 
 /* xxl */
 
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
     .container {
-        width: 1370px;
+        width: 1470px;
     }
 
     .col-xxl-1 {
