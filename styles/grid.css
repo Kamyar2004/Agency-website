@@ -105,7 +105,7 @@ html {
 
 @media (min-width: 576px) {
     .container {
-        width: 540px;
+        width: 95%;
     }
 
     .col-sm-1 {
@@ -174,7 +174,7 @@ html {
 
 @media (min-width: 768px) {
     .container {
-        width: 720px;
+        width: 97%;
     }
 
     .col-md-1 {
@@ -243,7 +243,7 @@ html {
 
 @media (min-width: 992px) {
     .container {
-        width: 960px;
+        width: 97%;
     }
 
     .col-lg-1 {
@@ -312,7 +312,7 @@ html {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1140px;
+        width: 97%;
     }
 
     .col-xl-1 {
@@ -381,7 +381,7 @@ html {
 
 @media (min-width: 1500px) {
     .container {
-        width: 1470px;
+        width: 97%;
     }
 
     .col-xxl-1 {
