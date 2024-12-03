@@ -88,3 +88,52 @@ body {
 .menu__item--active {
   color: #E7BEB1;
 }
+
+.nav__toggle-icon {
+  display: none;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: var(--dark-color);
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__toggle-line {
+  position: relative;
+}
+
+.nav__toggle-line,
+.nav__toggle-line::before,
+.nav__toggle-line::after {
+  width: 2rem;
+  height: 0.16rem;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  transition: all 150ms ease-in;
+}
+
+.nav__toggle-line::before,
+.nav__toggle-line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+}
+
+.nav__toggle-line::before {
+  top: -0.6rem;
+}
+
+.nav__toggle-line::after {
+  bottom: -0.6rem;
+  width: 1rem;
+}
+
+.nav__toggle-line--clicked .nav__toggle-line::before {
+  width: 1rem;
+}
+
+.nav__toggle-line--clicked .nav__toggle-line::after {
+  width: 2rem;
+}

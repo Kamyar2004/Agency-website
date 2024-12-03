@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+    .nav__svg {
+        width: 12rem;
+    }
+
+    .menu__item {
+        padding: 0.8rem 1.6rem;
+    }
+
+    .menu__link {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .nav__svg {
+        width: 10rem;
+    }
+
+    .menu__item {
+        padding: 0.6rem 1.4rem;
+    }
+
+    .menu__item:last-child {
+        display: none;
+    }
+
+    .menu__link {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .nav__toggle-icon {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 92%;
+    }
+}
