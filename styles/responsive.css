@@ -41,6 +41,12 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .mobile-wrapper {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .container {
         width: 92%;
