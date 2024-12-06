@@ -40,6 +40,10 @@ html {
     flex-grow: 1;
 }
 
+.col-0 {
+    width: 0%;
+}
+
 .col-1 {
     width: 8.333333%;
     flex: 0 0 auto;
