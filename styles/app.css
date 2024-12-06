@@ -288,7 +288,7 @@ body {
 }
 
 .status-top__wrapper {
-  padding: 7rem 5rem 2rem 6.5rem;
+  padding: 7rem 2rem 2rem 5rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -307,7 +307,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  right: 8.5rem;
+  right: 12.5rem;
   top: 1.5rem;
 }
 
@@ -342,10 +342,11 @@ body {
 }
 
 .status-top__description {
-  padding-left: 6.5rem;
-  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
   color: #676665;
-  max-width: 75rem;
+  max-width: 78rem;
+  font-size: 1.4rem;
 }
 
 .status-top__items {
