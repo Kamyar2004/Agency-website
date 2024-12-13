@@ -15,10 +15,6 @@
         right: 5.5rem;
     }
 
-    .status-top__title {
-        font-size: 4.5rem;
-    }
-
     .status-top__description {
         max-width: 70rem;
         padding-left: 4rem;
@@ -53,6 +49,7 @@
 @media screen and (max-width: 1350px) {
     .status-top__title {
         max-width: 50rem;
+        font-size: 4.5rem;
     }
 
     .status-top__btn {
