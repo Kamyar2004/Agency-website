@@ -1,3 +1,9 @@
+@media screen and (min-width: 1510px) {
+    .container {
+        width: 1466px;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .status-top__wrapper {
         padding-top: 5rem;
