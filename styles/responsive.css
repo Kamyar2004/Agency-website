@@ -30,7 +30,6 @@
         padding: 1rem 0;
         font-size: 1.4rem;
         gap: 3rem;
-        margin-top: 6rem;
     }
 
     .status-top__item::before {
@@ -39,10 +38,6 @@
 
     .status-top__legend {
         font-size: 1.8rem;
-    }
-
-    .status-top__text-wrapper {
-        padding: 1.5rem 2rem;
     }
 }
 
@@ -117,7 +112,6 @@
         padding: 1rem 0;
         font-size: 1.4rem;
         gap: 3rem;
-        margin-top: 4.5rem;
     }
 
     .status-top__legend {
@@ -127,27 +121,11 @@
     .status-top__text {
         font-size: 1.4rem;
     }
-
-    .status-top__text-wrapper {
-        padding: 1rem 1.5rem;
-    }
 }
 
 @media screen and (max-width: 1140px) {
     .status-top__btn {
         right: 0.5rem;
-    }
-}
-
-@media screen and (max-width: 1065px) {
-    .status-top__btn {
-        right: 5rem;
-    }
-}
-
-@media screen and (max-width: 1065px) {
-    .status-top__items {
-        margin-top: 2rem;
     }
 }
 
@@ -166,6 +144,10 @@
 
     .menu__link {
         font-size: 1.3rem;
+    }
+
+    .status-top__items {
+        margin-top: 4rem;
     }
 }
 
@@ -258,5 +240,6 @@
 
     .status-top__items {
         border-radius: 0.8rem;
+        margin-top: 3rem;
     }
 }
