@@ -125,6 +125,10 @@
     .status-bottom__digits {
         font-size: 3rem;
     }
+
+    .status-bottom__link {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -201,6 +205,14 @@
     .status-top__btn {
         top: -0.5rem;
         right: 1rem;
+    }
+
+    .status-bottom__wrapper {
+        padding-top: 1.2rem;
+    }
+
+    .status-bottom .col-12:last-child .status-bottom__wrapper {
+        height: 8.2rem;
     }
 }
 

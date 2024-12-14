@@ -44,13 +44,30 @@ a {
 
 /* 
 
-  -- App --
+  -- Components --
 
 */
 
-* {
-  /* border: 2px solid violet; */
+.arrow-icon {
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #262626;
 }
+
+.arrow-icon__svg {
+  width: 1.7rem;
+}
+
+/* 
+
+  -- App --
+
+*/
 
 body {
   line-height: 1.6;
@@ -60,7 +77,6 @@ body {
   font-family: "flex-rg", Arial, Helvetica, sans-serif;
   padding-top: 3rem;
   padding-bottom: 5rem;
-  overflow-x: hidden;
 }
 
 /* 
@@ -484,10 +500,25 @@ body {
   padding: 2rem 0 0.3rem;
 }
 
-.status-bottom__title {
+.status-bottom .col-12:last-child .status-bottom__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  height: 100%;
+  padding: 0;
+}
+
+.status-bottom__title,
+.status-bottom__link {
   font-family: "mono-md";
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+
+.status-bottom__link {
+  color: inherit;
+  font-size: 1.4rem;
 }
 
 .status-bottom .col-12:nth-child(5) .status-bottom__title {
