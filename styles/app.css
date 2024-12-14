@@ -530,3 +530,27 @@ body {
   color: #DA9E8B;
   font-size: 4rem;
 }
+
+/* 
+
+  -- Benefits --
+
+*/
+
+.benefits {}
+
+.benefits__wrapper {}
+
+.benefits-head {}
+
+.benefits-head__title {}
+
+.benefits-body {}
+
+.benefits-body__title {}
+
+.benefits-body__description {}
+
+.benefits-body__btn {}
+
+.benefits-body__link {}
