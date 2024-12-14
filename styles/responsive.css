@@ -121,6 +121,10 @@
     .status-top__text {
         font-size: 1.4rem;
     }
+
+    .status-bottom__digits {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
