@@ -476,12 +476,22 @@ body {
   margin-top: 1.5rem;
   border: 0.2rem solid #1f1f1f;
   text-align: center;
+  padding: 2rem;
 }
 
 .status-bottom__wrapper {
   background-color: var(--section-bg-color);
+  padding: 2rem 0 0.3rem;
 }
 
-.status-bottom__title {}
+.status-bottom__title {
+  font-family: "mono-md";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
 
-.status-bottom__digits {}
+.status-bottom__digits {
+  font-family: "flex-sm";
+  color: #DA9E8B;
+  font-size: 4rem;
+}
