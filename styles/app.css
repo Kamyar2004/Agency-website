@@ -562,6 +562,10 @@ body {
 .benefits-body {
   background-color: var(--section-bg-color);
   padding: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .benefits-body__title {
