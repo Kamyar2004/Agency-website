@@ -63,6 +63,22 @@ a {
   width: 1.4rem;
 }
 
+.section-icon {
+  width: 5rem;
+  height: 5rem;
+  background-color: #1F1F1F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #333333;
+  border-radius: 1.2rem;
+}
+
+.section-icon__svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 /* 
 
   -- App --
@@ -634,22 +650,6 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-
-.section-icon {
-  width: 5rem;
-  height: 5rem;
-  background-color: #1F1F1F;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0.1rem solid #333333;
-  border-radius: 1.2rem;
-}
-
-.section-icon__svg {
-  width: 2.5rem;
-  height: 2.5rem;
 }
 
 .service__title {
