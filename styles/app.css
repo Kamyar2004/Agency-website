@@ -79,6 +79,20 @@ a {
   height: 2.5rem;
 }
 
+.section-btn {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  width: 100%;
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+  font-family: "flex-md";
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
 /* 
 
   -- App --
@@ -580,9 +594,6 @@ body {
   background-color: var(--section-bg-color);
   padding: 3rem;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .benefits-body__title {
@@ -590,17 +601,18 @@ body {
   font-size: 2.5rem;
   color: var(--title-color);
   text-transform: uppercase;
+  height: 9.6rem;
 }
 
 .benefits-body__description {
-  margin-top: 1rem;
+  height: 10rem;
 }
 
 .benefits-body__btn {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .benefits-body__link {
@@ -638,12 +650,14 @@ body {
 .service {
   background-color: var(--section-bg-color);
   padding: 5rem;
+  height: 100%;
 }
 
 .service__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 6.5rem;
 }
 
 .service__left {
@@ -678,7 +692,7 @@ body {
 }
 
 .service__body {
-  margin-top: 4rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -692,4 +706,9 @@ body {
   color: var(--title-color);
   font-size: 2.5rem;
   text-transform: uppercase;
+}
+
+.services .section-btn {
+  display: none;
+  margin-top: 5rem;
 }
