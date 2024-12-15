@@ -181,6 +181,10 @@
         margin-top: 4rem;
     }
 
+    .benefits {
+        margin-top: 6rem;
+    }
+
     .benefits .col-12:last-child .benefits-body {
         align-items: center;
     }
@@ -288,6 +292,10 @@
     .status-top__items {
         border-radius: 0.8rem;
         margin-top: 3rem;
+    }
+
+    .benefits {
+        margin-top: 4rem;
     }
 
     .benefits-head__title {
