@@ -163,6 +163,27 @@
     .service__description {
         height: 10.2rem;
     }
+
+    .works-body__middle {
+        flex-shrink: unset;
+        width: auto;
+    }
+
+    .works-head__title {
+        font-size: 3rem;
+    }
+
+    .works-techs {
+        display: none;
+    }
+
+    .works-team {
+        margin-top: 0;
+    }
+
+    .works-team__members {
+        max-width: 9rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -202,6 +223,34 @@
 
     .service {
         padding: 3rem;
+    }
+
+    .works {
+        margin-top: 6rem;
+    }
+
+    .works-body {
+        gap: 0;
+    }
+
+    .works-body__left {
+        flex-shrink: unset;
+        flex-basis: 50%;
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+
+    .works-body__middle {
+        margin-left: 1rem;
+        flex-basis: 50%;
+    }
+
+    .works-team {
+        display: none;
+    }
+
+    .works .section-btn {
+        display: none;
     }
 }
 
@@ -311,6 +360,24 @@
     .service__description {
         height: 16rem;
     }
+
+    .works-head__link {
+        font-size: 1.4rem;
+    }
+
+    .works-body__details {
+        position: absolute;
+        left: 2rem;
+        bottom: 3rem;
+    }
+
+    .works-body__link {
+        font-size: 1.4rem;
+    }
+
+    .works-body__description {
+        height: 13rem;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -391,5 +458,53 @@
 
     .services .section-btn {
         margin-top: 0;
+    }
+
+    .works-wrapper {
+        padding: 1rem;
+        border: 0.2rem solid #1F1F1F;
+    }
+
+    .works {
+        margin-top: 4rem;
+    }
+
+    .works-head__title {
+        font-size: 2.5rem;
+    }
+
+    .works-head__icon {
+        display: none;
+    }
+
+    .works-body {
+        flex-direction: column-reverse;
+    }
+
+    .works-body__left {
+        margin-top: 0.5rem;
+        padding: 2rem;
+    }
+
+    .works-body__details {
+        bottom: 2rem;
+    }
+
+    .works-body__middle {
+        margin-left: 0;
+    }
+
+    .all-works {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .works-lable__item {
+        width: 20rem;
+    }
+
+    .works-body__description {
+        height: 15rem;
     }
 }

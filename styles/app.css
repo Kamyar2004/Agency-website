@@ -712,3 +712,248 @@ body {
   display: none;
   margin-top: 5rem;
 }
+
+/* 
+
+  -- Works --
+
+*/
+
+.works {
+  margin-top: 9rem;
+}
+
+.works-head {
+  background-color: var(--section-bg-color);
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works-head__title {
+  font-family: "flex-sm";
+  font-size: 3.6rem;
+  color: var(--title-color);
+  text-transform: uppercase;
+}
+
+.works-head__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.works .works-head .arrow-icon {
+  background-color: inherit;
+}
+
+.works-head__link {
+  font-family: "mono-md";
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.works-body {
+  margin-top: 1rem;
+  border: 0.2rem solid #1F1F1F;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.works-body__left {
+  background-color: var(--section-bg-color);
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.works-body__top {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.works-body__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.works-body__title {
+  font-family: "flex-md";
+  color: var(--title-color);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.works-body__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.works .works-body .arrow-icon {
+  background-color: #1F1F1F;
+}
+
+.works-body__link {
+  color: var(--text-color);
+  font-family: "mono-md";
+  text-transform: uppercase;
+}
+
+.works-lable {}
+
+.works-lable__item {
+  border-radius: 4.5rem;
+  background-color: #1F1F1F;
+  width: max-content;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.works-lable__item:last-child {
+  margin-top: 0.8rem;
+}
+
+.works-lable__key {
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.works-lable__key::after {
+  content: "";
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  right: -1.1rem;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.works-lable__value {
+  font-size: 1.4rem;
+  font-family: "flex-md";
+  margin-left: 1.8rem;
+  color: #E6E6E6;
+}
+
+.works-body__description {
+  font-size: 1.4rem;
+  max-width: 40rem;
+}
+
+.works-body__middle {
+  flex-shrink: 0;
+  width: 47rem;
+}
+
+.works-body__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.4rem;
+}
+
+.works-body__right {
+  min-width: 0;
+}
+
+.works-techs {
+  background-color: var(--section-bg-color);
+  padding: 2rem;
+}
+
+.works-tecks__title {
+  font-family: "flex-md";
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.works-techs__items {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.works-tecks__item {
+  font-family: "mono-rg";
+  color: #E6E6E6;
+  background-color: #1F1F1F;
+  border-radius: 4.5rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.4rem;
+  white-space: nowrap;
+}
+
+.works-team {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--section-bg-color);
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.works-team__title {
+  font-family: "flex-md";
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.works-team__members {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.works-team__member {
+  width: 4rem;
+  height: 4rem;
+}
+
+.works-team__img {
+  width: 100%;
+  height: 100%;
+}
+
+.works .section-btn {
+  margin-top: 1rem;
+  height: 5rem;
+}
+
+.all-works {
+  margin-top: 1rem;
+  background-color: var(--section-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem 0;
+  display: none;
+}
+
+.all-works__text {
+  font-family: "mono-md";
+  font-size: 1.4rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
