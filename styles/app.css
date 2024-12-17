@@ -1032,6 +1032,7 @@ body {
 
 .testimonials-body__description {
   margin-top: 2rem;
+  max-width: 27rem;
 }
 
 .testimonials-body__bottom {
@@ -1071,4 +1072,26 @@ body {
   font-size: 1.4rem;
   color: #81807E;
   white-space: nowrap;
+}
+
+.all-testimonials {
+  margin-top: 1rem;
+  background-color: var(--section-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem 0;
+  display: none;
+}
+
+.testimonials .all-testimonials .arrow-icon {
+  background-color: var(--dark-color);
+}
+
+.all-testimonials__text {
+  font-family: "mono-md";
+  font-size: 1.4rem;
+  color: var(--text-color);
+  text-transform: uppercase;
 }

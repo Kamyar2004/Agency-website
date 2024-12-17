@@ -52,6 +52,10 @@
         text-overflow: ellipsis;
         display: block;
     }
+
+    .testimonials-body__bottom {
+        padding: 2rem;
+    }
 }
 
 @media screen and (max-width: 1350px) {
@@ -187,6 +191,10 @@
 
     .testimonilas-head__title {
         font-size: 3rem;
+    }
+
+    .testimonials .testimonials-body .arrow-icon {
+        display: none;
     }
 }
 
@@ -386,6 +394,10 @@
     .works-body__description {
         height: 13rem;
     }
+
+    .testimonials-body__top {
+        padding: 2rem;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -513,9 +525,25 @@
     .testimonilas-head__title {
         font-size: 2.5rem;
     }
+
+    .testimonials-head__icon {
+        display: none;
+    }
+
+    .testimonials .testimonials-body .arrow-icon {
+        display: flex;
+    }
+
+    .testimonials-body__description {
+        max-width: 31rem;
+    }
+
+    .all-testimonials {
+        display: flex;
+    }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .works-lable__item {
         width: 20rem;
     }
