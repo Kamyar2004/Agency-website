@@ -184,6 +184,10 @@
     .works-team__members {
         max-width: 9rem;
     }
+
+    .testimonilas-head__title {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -251,6 +255,10 @@
 
     .works .section-btn {
         display: none;
+    }
+
+    .testimonials {
+        margin-top: 6rem;
     }
 }
 
@@ -496,6 +504,14 @@
 
     .all-works {
         display: flex;
+    }
+
+    .testimonials {
+        margin-top: 4rem;
+    }
+
+    .testimonilas-head__title {
+        font-size: 2.5rem;
     }
 }
 
