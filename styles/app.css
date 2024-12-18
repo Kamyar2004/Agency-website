@@ -407,20 +407,40 @@ body {
   font-size: 1.4rem;
 }
 
+.status-top__scroll-animation {
+  background-color: var(--dark-color);
+  padding: 1.5rem 0;
+  overflow-x: hidden;
+}
+
 .status-top__items {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--dark-color);
-  padding: 1.5rem 0;
-  font-family: 'mono-rg';
-  overflow: hidden;
+  font-family: "mono-rg";
+  white-space: nowrap;
+  animation: scroll-banner 10.5s linear 1s infinite;
+}
+
+@keyframes scroll-banner {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .status-top__item {
   color: #676665;
   text-transform: uppercase;
   position: relative;
+  margin-right: 3.5rem;
+}
+
+.status-top__item:last-child {
+  margin-right: 0;
 }
 
 .status-top__item::before {
@@ -432,7 +452,7 @@ body {
   background-color: var(--primary-color);
   position: absolute;
   top: 0;
-  left: -2.5rem;
+  left: -2.2rem;
   bottom: 0;
   margin-top: auto;
   margin-bottom: auto;

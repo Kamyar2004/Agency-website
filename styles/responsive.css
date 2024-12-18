@@ -26,14 +26,7 @@
     }
 
     .status-top__items {
-        white-space: nowrap;
-        padding: 1rem 0;
         font-size: 1.4rem;
-        gap: 3rem;
-    }
-
-    .status-top__item::before {
-        left: -2rem;
     }
 
     .status-top__legend {
@@ -124,11 +117,12 @@
         padding-left: 3rem;
     }
 
-    .status-top__items {
-        white-space: nowrap;
-        padding: 1rem 0;
-        font-size: 1.4rem;
-        gap: 3rem;
+    .status-top__item {
+        margin-right: 2.5rem;
+    }
+
+    .status-top__item::before {
+        left: -1.6rem;
     }
 
     .status-top__legend {
@@ -221,7 +215,7 @@
         font-size: 1.3rem;
     }
 
-    .status-top__items {
+    .status-top__scroll-animation {
         margin-top: 4rem;
     }
 
@@ -438,9 +432,9 @@
         padding-left: 1rem;
     }
 
-    .status-top__items {
-        border-radius: 0.8rem;
+    .status-top__scroll-animation {
         margin-top: 3rem;
+        border-radius: 0.8rem;
     }
 
     .benefits {
