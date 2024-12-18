@@ -190,6 +190,10 @@
     .testimonials .testimonials-body .arrow-icon {
         display: none;
     }
+
+    .questions-head__title {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -534,6 +538,14 @@
 
     .all-testimonials {
         display: flex;
+    }
+
+    .questions-head__title {
+        font-size: 2.5rem;
+    }
+
+    .questions-head__icon {
+        display: none;
     }
 }
 
