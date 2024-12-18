@@ -419,7 +419,7 @@ body {
   justify-content: space-between;
   font-family: "mono-rg";
   white-space: nowrap;
-  animation: scroll-banner 10.5s linear 1s infinite;
+  /* animation: scroll-banner 10.5s linear 1s infinite; */
 }
 
 @keyframes scroll-banner {
