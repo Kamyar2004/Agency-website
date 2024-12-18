@@ -194,6 +194,23 @@
     .questions-head__title {
         font-size: 3rem;
     }
+
+    .question-body__item {
+        height: 10rem;
+        padding: 3rem;
+    }
+
+    .question-body__item--open {
+        height: 19rem;
+    }
+
+    .question-form {
+        padding: 3rem;
+    }
+
+    .questions .section-btn {
+        margin-top: 3rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -265,6 +282,35 @@
 
     .testimonials {
         margin-top: 6rem;
+    }
+
+    .question-body__item {
+        padding: 2rem;
+    }
+
+    .question-body__item--open {
+        height: 20rem;
+    }
+
+    .question-body__title {
+        max-width: 39rem;
+    }
+
+    .question-form {
+        padding: 2.5rem;
+    }
+
+    .question-form__title::before {
+        bottom: -2.5rem;
+    }
+
+    .question-form__wrapper {
+        margin-top: 5rem;
+    }
+
+    .question-form__input,
+    .question-form__area {
+        padding: 1.2rem;
     }
 }
 
@@ -395,6 +441,19 @@
 
     .testimonials-body__top {
         padding: 2rem;
+    }
+
+    .questions-body {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .question-body__title {
+        max-width: 43rem;
+    }
+
+    .question-body__item--open {
+        height: 19rem;
     }
 }
 
@@ -546,6 +605,48 @@
 
     .questions-head__icon {
         display: none;
+    }
+
+    .question-body__item--open {
+        height: 21rem;
+    }
+
+    .question-body__title {
+        max-width: 30rem;
+    }
+
+    .question-form__title {
+        font-size: 1.8rem;
+    }
+
+    .question-form__title::before {
+        bottom: -1.5rem;
+    }
+
+    .question-form__wrapper {
+        margin-top: 3rem;
+    }
+
+    .question-form__lable {
+        margin-top: 1rem;
+    }
+
+    .questions .section-btn {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .question-body__title {
+        max-width: 22rem;
+    }
+
+    .question-body__item {
+        height: 12rem;
+    }
+
+    .question-body__item--open {
+        height: 25rem;
     }
 }
 

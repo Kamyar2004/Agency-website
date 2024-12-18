@@ -1185,7 +1185,7 @@ body {
 }
 
 .question-body__item--open {
-  height: auto;
+  height: 19.5rem;
 }
 
 .questions-body__top {
@@ -1273,6 +1273,7 @@ body {
   color: var(--title-color);
   text-transform: uppercase;
   position: relative;
+  white-space: nowrap;
 }
 
 .question-form__title::before {
@@ -1295,7 +1296,7 @@ body {
   font-family: "flex-md";
   color: #F3DFD8;
   display: block;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   text-transform: uppercase;
 }
 
