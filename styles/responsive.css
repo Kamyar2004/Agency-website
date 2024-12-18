@@ -372,6 +372,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .nav {
+        padding-left: 2.5rem;
+    }
+
     .menu {
         display: none;
     }
@@ -401,6 +405,10 @@
         height: 8.2rem;
     }
 
+    .benefits-head {
+        padding: 2.5rem;
+    }
+
     .benefits .col-12:last-child .benefits-body {
         align-items: stretch;
     }
@@ -413,12 +421,20 @@
         height: 10rem;
     }
 
+    .services-head {
+        padding: 2.5rem;
+    }
+
     .service {
         padding: 2rem;
     }
 
     .service__description {
         height: 16rem;
+    }
+
+    .works-head {
+        padding: 2.5rem;
     }
 
     .works-head__link {
@@ -439,8 +455,16 @@
         height: 13rem;
     }
 
+    .testimonials-head {
+        padding: 2.5rem;
+    }
+
     .testimonials-body__top {
         padding: 2rem;
+    }
+
+    .questions-head {
+        padding: 2.5rem;
     }
 
     .questions-body {
@@ -480,6 +504,10 @@
         width: 92%;
     }
 
+    .nav {
+        padding: 1.5rem;
+    }
+
     .status-top__wrapper {
         flex-direction: column;
         padding-top: 1rem;
@@ -502,6 +530,10 @@
 
     .benefits {
         margin-top: 4rem;
+    }
+
+    .benefits-head {
+        padding: 2rem;
     }
 
     .benefits-head__title,
@@ -529,6 +561,10 @@
         margin-top: 4rem;
     }
 
+    .services-head {
+        padding: 2rem;
+    }
+
     .service__body {
         margin-top: 1.5rem;
     }
@@ -544,6 +580,10 @@
 
     .works {
         margin-top: 4rem;
+    }
+
+    .works-head {
+        padding: 2rem;
     }
 
     .works-head__title {
@@ -579,6 +619,10 @@
         margin-top: 4rem;
     }
 
+    .testimonials-head {
+        padding: 2rem;
+    }
+
     .testimonilas-head__title {
         font-size: 2.5rem;
     }
@@ -597,6 +641,10 @@
 
     .all-testimonials {
         display: flex;
+    }
+
+    .questions-head {
+        padding: 2rem;
     }
 
     .questions-head__title {
