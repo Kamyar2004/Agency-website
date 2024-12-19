@@ -49,6 +49,18 @@
     .testimonials-body__bottom {
         padding: 2rem;
     }
+
+    .footer-head__title {
+        font-size: 4rem;
+    }
+
+    .footer-head__description {
+        max-width: 81rem;
+    }
+
+    .footer-head__items {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 1350px) {
@@ -211,6 +223,26 @@
     .questions .section-btn {
         margin-top: 3rem;
     }
+
+    .footer-head__wrapper {
+        padding: 4.5rem;
+    }
+
+    .footer-head__title {
+        font-size: 3.5rem;
+    }
+
+    .footer-head__description {
+        max-width: 64rem;
+    }
+
+    .footer-head__item {
+        margin-right: 2.5rem;
+    }
+
+    .footer-head__item::before {
+        left: -1.6rem;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -319,6 +351,23 @@
 
     .footer {
         margin-top: 6rem;
+    }
+
+    .footer-head__wrapper {
+        padding: 3.5rem;
+    }
+
+    .footer-head__right {
+        width: 17rem;
+        height: 4rem;
+    }
+
+    .footer-head__link {
+        font-size: 1.2rem;
+    }
+
+    .footer-head__svg {
+        width: 1.2rem;
     }
 }
 
@@ -487,6 +536,26 @@
     .question-body__item--open {
         height: 19rem;
     }
+
+    .footer-head__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .footer-head__title {
+        font-size: 3rem;
+        max-width: 65rem;
+    }
+
+    .footer-head__right {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .footer-head__description {
+        margin-top: 0.5rem;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -534,6 +603,10 @@
     .status-top__scroll-animation {
         margin-top: 3rem;
         border-radius: 0.8rem;
+    }
+
+    .status-top__items {
+        font-size: 1.2rem;
     }
 
     .benefits {
@@ -697,6 +770,26 @@
 
     .footer {
         margin-top: 4rem;
+    }
+
+    .footer-head__wrapper {
+        padding: 2.5rem;
+    }
+
+    .footer-head__title {
+        font-size: 2.5rem;
+    }
+
+    .footer-head__right {
+        margin-top: 1.5rem;
+    }
+
+    .footer-head__scroll-animation {
+        border-radius: 0.8rem;
+    }
+
+    .footer-head__items {
+        font-size: 1.2rem;
     }
 }
 
