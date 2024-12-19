@@ -1248,10 +1248,11 @@ body {
   right: 0;
   margin: auto;
   transform: rotate(90deg);
+  transition: all 150ms ease-in;
 }
 
 .show-icon__line--open::before {
-  display: none;
+  width: 0;
 }
 
 .question-body__answer {
