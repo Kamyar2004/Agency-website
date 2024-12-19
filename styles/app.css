@@ -1203,18 +1203,19 @@ body {
 
 .question-body__title::before {
   content: "";
-  display: none;
-  width: 100%;
+  display: block;
+  width: 0;
   height: 0.1rem;
   background-color: #333333;
   position: absolute;
   left: 0;
   right: 0;
   bottom: -2rem;
+  transition: all 150ms ease-in;
 }
 
 .question-body__title--open::before {
-  display: block;
+  width: 100%;
 }
 
 .show-icon {
