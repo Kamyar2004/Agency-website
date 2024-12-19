@@ -284,6 +284,10 @@
         margin-top: 6rem;
     }
 
+    .questions {
+        margin-top: 6rem;
+    }
+
     .question-body__item {
         padding: 2rem;
     }
@@ -311,6 +315,10 @@
     .question-form__input,
     .question-form__area {
         padding: 1.2rem;
+    }
+
+    .footer {
+        margin-top: 6rem;
     }
 }
 
@@ -643,6 +651,10 @@
         display: flex;
     }
 
+    .questions {
+        margin-top: 4rem;
+    }
+
     .questions-head {
         padding: 2rem;
     }
@@ -681,6 +693,10 @@
 
     .questions .section-btn {
         margin-top: 2rem;
+    }
+
+    .footer {
+        margin-top: 4rem;
     }
 }
 
