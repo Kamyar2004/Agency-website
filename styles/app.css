@@ -403,7 +403,7 @@ body {
   justify-content: space-between;
   font-family: "mono-rg";
   white-space: nowrap;
-  /* animation: scroll-banner 10.5s linear 1s infinite; */
+  animation: scroll-banner 10.5s linear 1s infinite;
 }
 
 @keyframes scroll-banner {
@@ -1386,7 +1386,7 @@ body {
   align-items: center;
   justify-content: space-between;
   white-space: nowrap;
-  /* animation: scroll-banner 14s linear 1s infinite; */
+  animation: scroll-banner 14s linear 1s infinite;
 }
 
 .footer-head__item {

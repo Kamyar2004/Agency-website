@@ -46,13 +46,13 @@ function animateNumber(element, start, end, duration) {
 	}, stepTime);
 }
 
-// document.addEventListener('DOMContentLoaded', function () {
-// 	animateNumber(counter_1, 0, 200, 4000);
-// 	animateNumber(counter_2, 0, 280, 4000);
-// 	animateNumber(counter_3, 0, 100, 4000);
-// 	animateNumber(counter_4, 0, 420, 4000);
-// 	animateNumber(counter_5, 0, 10, 4000);
-// });
+document.addEventListener('DOMContentLoaded', function () {
+	animateNumber(counter_1, 0, 200, 4000);
+	animateNumber(counter_2, 0, 280, 4000);
+	animateNumber(counter_3, 0, 100, 4000);
+	animateNumber(counter_4, 0, 420, 4000);
+	animateNumber(counter_5, 0, 10, 4000);
+});
 
 questionItems.forEach(function (item) {
 	const showBtn = item.querySelector('.show-icon');
