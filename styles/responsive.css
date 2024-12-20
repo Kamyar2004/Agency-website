@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media screen and (min-width: 1510px) {
     .container {
         width: 1466px;
@@ -42,6 +49,7 @@
     .ellipsis {
         overflow: hidden;
         white-space: nowrap;
+        -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
         display: block;
     }
@@ -175,6 +183,7 @@
     }
 
     .works-body__middle {
+        -ms-flex-negative: unset;
         flex-shrink: unset;
         width: auto;
     }
@@ -255,6 +264,7 @@
 
     .quick-links {
         padding: 3rem;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
@@ -315,7 +325,9 @@
     }
 
     .works-body__left {
+        -ms-flex-negative: unset;
         flex-shrink: unset;
+        -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
         padding: 3rem 2rem;
         gap: 2rem;
@@ -323,6 +335,7 @@
 
     .works-body__middle {
         margin-left: 1rem;
+        -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     }
 
@@ -393,6 +406,9 @@
     }
 
     .footer-body__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -411,8 +427,15 @@
     }
 
     .responsive-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -440,7 +463,12 @@
     }
 
     .service__body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
         align-items: stretch;
         gap: 1rem;
     }
@@ -466,6 +494,8 @@
     }
 
     .nav__toggle-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -495,6 +525,8 @@
     }
 
     .benefits .col-12:last-child .benefits-body {
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
         align-items: stretch;
     }
 
@@ -553,7 +585,12 @@
     }
 
     .questions-body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
         align-items: stretch;
     }
 
@@ -566,7 +603,12 @@
     }
 
     .footer-head__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         padding: 3rem;
     }
@@ -586,12 +628,20 @@
     }
 
     .newsletter {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
         align-items: stretch;
         gap: 1rem;
     }
 
     .copy-right {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 1.5rem;
     }
@@ -625,6 +675,9 @@
     }
 
     .status-top__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         padding-top: 1rem;
         padding-left: 1rem;
@@ -715,6 +768,9 @@
     }
 
     .works-body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -732,6 +788,8 @@
     }
 
     .all-works {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -752,6 +810,8 @@
     }
 
     .testimonials .testimonials-body .arrow-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -760,6 +820,8 @@
     }
 
     .all-testimonials {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -897,11 +959,16 @@
     }
 
     .copy-right__links {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 4rem;
     }
 
     .copy-right__link:first-child::after {
+        -webkit-transform: none;
+        -ms-transform: none;
         transform: none;
         top: 4.2rem;
         left: -10rem;
