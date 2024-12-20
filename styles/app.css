@@ -76,43 +76,43 @@ body {
 
 @font-face {
   font-family: "flex-rg";
-  src: url("fonts/RobotoFlex-VariableFont_GRAD.ttf") format("truetype");
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf") format("truetype");
   font-weight: 400
 }
 
 @font-face {
   font-family: "flex-md";
-  src: url("fonts/RobotoFlex-VariableFont_GRAD.ttf") format("truetype");
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf") format("truetype");
   font-weight: 500
 }
 
 @font-face {
   font-family: "flex-sm";
-  src: url("fonts/RobotoFlex-VariableFont_GRAD.ttf") format("truetype");
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf") format("truetype");
   font-weight: 600
 }
 
 @font-face {
   font-family: "flex-bld";
-  src: url("fonts/RobotoFlex-VariableFont_GRAD.ttf") format("truetype");
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf") format("truetype");
   font-weight: 700
 }
 
 @font-face {
   font-family: "mono-rg";
-  src: url("fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
   font-weight: 400
 }
 
 @font-face {
   font-family: "mono-md";
-  src: url("fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
   font-weight: 500
 }
 
 @font-face {
   font-family: "mono-bld";
-  src: url("fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
   font-weight: 700
 }
 
@@ -927,7 +927,7 @@ a {
   border-radius: .8rem;
   outline: 0;
   border: none;
-  font-family: flex-md;
+  font-family: "flex-md";
   font-size: 1.4rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem
@@ -937,7 +937,7 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   color: var(--text-color);
-  font-family: flex-rg, Arial, Helvetica, sans-serif;
+  font-family: "flex-rg", Arial, Helvetica, sans-serif;
   padding-top: 2rem;
   padding-bottom: 2rem
 }
@@ -967,7 +967,7 @@ body {
 }
 
 .menu__link {
-  font-family: mono-md;
+  font-family: "mono-md";
   color: inherit
 }
 
@@ -1179,7 +1179,7 @@ body {
 }
 
 .status-top__title {
-  font-family: flex-sm;
+  font-family: "flex-sm";
   font-size: 6rem;
   color: var(--title-color);
   max-width: 56rem
@@ -1220,7 +1220,7 @@ body {
 }
 
 .status-top__link {
-  font-family: flex-md;
+  font-family: "flex-md";
   font-size: 2rem;
   color: var(--primary-color)
 }
@@ -1245,7 +1245,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: mono-rg;
+  font-family: "mono-rg";
   white-space: nowrap;
   -webkit-animation: 10.5s linear 1s infinite scroll-banner;
   animation: 10.5s linear 1s infinite scroll-banner
@@ -1389,7 +1389,7 @@ body {
 }
 
 .status-top__legend {
-  font-family: flex-md;
+  font-family: "flex-md";
   font-size: 2rem;
   color: var(--title-color)
 }
@@ -1427,7 +1427,7 @@ body {
 
 .status-bottom__link,
 .status-bottom__title {
-  font-family: mono-md;
+  font-family: "mono-md";
   font-size: 1.2rem;
   text-transform: uppercase
 }
@@ -1442,7 +1442,7 @@ body {
 }
 
 .status-bottom__digits {
-  font-family: flex-sm;
+  font-family: "flex-sm";
   color: #da9e8b;
   font-size: 4rem
 }
@@ -1475,7 +1475,7 @@ body {
 .services-head__title,
 .testimonilas-head__title,
 .works-head__title {
-  font-family: flex-sm;
+  font-family: "flex-sm";
   font-size: 3.6rem;
   color: var(--title-color);
   text-transform: uppercase
@@ -1483,7 +1483,7 @@ body {
 
 .benefits-body__title,
 .service__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   text-transform: uppercase
 }
 
@@ -1560,14 +1560,14 @@ body {
 .service__link,
 .testimonials-head__link,
 .works-head__link {
-  font-family: mono-md;
+  font-family: "mono-md";
   color: var(--text-color);
   text-transform: uppercase
 }
 
 .service__price,
 .works-body__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: var(--title-color);
   text-transform: uppercase
 }
@@ -1674,7 +1674,7 @@ body {
 
 .works-body__link {
   color: var(--text-color);
-  font-family: mono-md;
+  font-family: "mono-md";
   text-transform: uppercase
 }
 
@@ -1725,7 +1725,7 @@ body {
 
 .works-lable__value {
   font-size: 1.4rem;
-  font-family: flex-md;
+  font-family: "flex-md";
   margin-left: 1.8rem;
   color: #e6e6e6
 }
@@ -1760,7 +1760,7 @@ body {
 
 .works-team__title,
 .works-tecks__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: #fff;
   text-transform: uppercase
 }
@@ -1783,7 +1783,7 @@ body {
 }
 
 .works-tecks__item {
-  font-family: mono-rg;
+  font-family: "mono-rg";
   color: #e6e6e6;
   background-color: #1f1f1f;
   border-radius: 4.5rem;
@@ -1841,7 +1841,7 @@ body {
 
 .all-testimonials__text,
 .all-works__text {
-  font-family: mono-md;
+  font-family: "mono-md";
   font-size: 1.4rem;
   color: var(--text-color);
   text-transform: uppercase
@@ -1867,7 +1867,7 @@ body {
 }
 
 .testimonials-body__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: var(--title-color);
   font-size: 2rem;
   text-transform: uppercase
@@ -1905,7 +1905,7 @@ body {
 }
 
 .testimonials-body__name {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: #f3dfd8
 }
 
@@ -1916,7 +1916,7 @@ body {
 }
 
 .questions-head__link {
-  font-family: mono-md;
+  font-family: "mono-md";
   color: var(--text-color);
   text-transform: uppercase;
   white-space: nowrap
@@ -1925,7 +1925,7 @@ body {
 .question-body__title,
 .question-form__title {
   color: var(--title-color);
-  font-family: flex-md;
+  font-family: "flex-md";
   position: relative
 }
 
@@ -2060,7 +2060,7 @@ body {
 }
 
 .question-form__lable {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: #f3dfd8;
   display: block;
   margin-top: 2rem;
@@ -2083,35 +2083,35 @@ body {
 
 .question-form__area::-webkit-input-placeholder,
 .question-form__input::-webkit-input-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .question-form__area::-moz-placeholder,
 .question-form__input::-moz-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .question-form__area:-ms-input-placeholder,
 .question-form__input:-ms-input-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .question-form__area::-ms-input-placeholder,
 .question-form__input::-ms-input-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .question-form__area::placeholder,
 .question-form__input::placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
@@ -2155,7 +2155,7 @@ body {
 }
 
 .footer-head__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   font-size: 4.5rem;
   color: var(--dark-color);
   text-transform: uppercase
@@ -2182,7 +2182,7 @@ body {
 }
 
 .footer-head__link {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: #f3dfd8;
   text-transform: uppercase;
   white-space: nowrap
@@ -2222,7 +2222,7 @@ body {
 }
 
 .footer-head__item {
-  font-family: mono-rg;
+  font-family: "mono-rg";
   color: #676665;
   text-transform: uppercase;
   margin-right: 3.5rem;
@@ -2275,7 +2275,7 @@ body {
 }
 
 .footer-social__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   color: var(--title-color);
   font-size: 2.6rem;
   text-transform: uppercase;
@@ -2305,7 +2305,7 @@ body {
 }
 
 .quick-links__title {
-  font-family: mono-bld;
+  font-family: "mono-bld";
   font-size: 1.8rem;
   color: var(--title-color)
 }
@@ -2331,7 +2331,7 @@ body {
   background-color: #262626;
   border: .1rem solid #333;
   border-radius: .6rem;
-  font-family: mono-rg;
+  font-family: "mono-rg";
   color: #ccc;
   padding: .4rem 1rem;
   margin-left: .8rem;
@@ -2353,13 +2353,13 @@ body {
 }
 
 .newsletter__text {
-  font-family: mono-rg;
+  font-family: "mono-rg";
   text-transform: uppercase;
   color: #676665
 }
 
 .newsletter__title {
-  font-family: flex-md;
+  font-family: "flex-md";
   font-size: 2.4rem;
   color: var(--title-color);
   text-transform: uppercase;
@@ -2383,31 +2383,31 @@ body {
 }
 
 .newsletter__input::-webkit-input-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .newsletter__input::-moz-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .newsletter__input:-ms-input-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .newsletter__input::-ms-input-placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
 
 .newsletter__input::placeholder {
-  font-family: flex-rg;
+  font-family: "flex-rg";
   font-size: 1.4rem;
   color: #676665
 }
@@ -2424,7 +2424,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: mono-rg;
+  font-family: "mono-rg";
   font-size: 1.4rem
 }
 
