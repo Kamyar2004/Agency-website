@@ -390,12 +390,6 @@
         max-width: 75rem;
     }
 
-    .benefits .col-12:last-child .benefits-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .benefits-body__title {
         height: 8rem;
     }
