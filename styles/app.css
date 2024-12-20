@@ -115,8 +115,6 @@ body {
 
 */
 
-.header {}
-
 .nav {
   background-color: var(--section-bg-color);
   display: flex;
@@ -125,10 +123,6 @@ body {
   padding: 1.8rem 1.8rem 1.8rem 3.5rem;
   color: #81807E;
 }
-
-.nav__logo {}
-
-.nav__svg {}
 
 .menu {
   display: flex;
@@ -225,8 +219,6 @@ body {
 .mobile-wrapper .nav__logo {
   position: relative;
 }
-
-.nav__svg {}
 
 .nav__close-icon {
   position: absolute;
@@ -330,10 +322,6 @@ body {
 
 */
 
-.status {}
-
-.status-top {}
-
 .status-top__left {
   background-color: var(--section-bg-color);
   padding: 1.5rem;
@@ -342,8 +330,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.responsive-wrapper {}
 
 .status-top__wrapper {
   padding: 7rem 2rem 2rem 5rem;
@@ -389,8 +375,6 @@ body {
   left: 1.6rem;
   top: 0.9rem;
 }
-
-.status-top__arrow {}
 
 .status-top__link {
   font-family: 'flex-md';
@@ -719,8 +703,6 @@ body {
   gap: 2rem;
 }
 
-.service__description {}
-
 .service__price {
   font-family: "flex-md";
   color: var(--title-color);
@@ -830,8 +812,6 @@ body {
   font-family: "mono-md";
   text-transform: uppercase;
 }
-
-.works-lable {}
 
 .works-lable__item {
   border-radius: 4.5rem;
@@ -1080,8 +1060,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
-.testimonials-body__info {}
 
 .testimonials-body__name {
   font-family: "flex-md";
@@ -1347,8 +1325,6 @@ body {
 
 */
 
-.footer-head {}
-
 .footer-head__wrapper {
   background-color: var(--primary-color);
   display: flex;
@@ -1356,8 +1332,6 @@ body {
   align-items: flex-end;
   padding: 5.5rem;
 }
-
-.footer-head__left {}
 
 .footer-head__title {
   font-family: "flex-md";
@@ -1475,20 +1449,12 @@ body {
   align-items: flex-start;
 }
 
-.footer-social__link {}
-
-.section-icon {}
-
-.section-icon__svg {}
-
 .footer-body .arrow-icon {
   background-color: #1F1F1F;
   border-color: #333333;
   width: 4rem;
   height: 4rem;
 }
-
-.footer-body .arrow-icon__svg {}
 
 .footer-social__title {
   font-family: "flex-md";
@@ -1563,8 +1529,6 @@ body {
   align-items: center;
 }
 
-.newsletter__left {}
-
 .newsletter__text {
   font-family: "mono-rg";
   text-transform: uppercase;
@@ -1612,8 +1576,6 @@ body {
   font-family: "mono-rg";
   font-size: 1.4rem;
 }
-
-.copy-right__description {}
 
 .copy-right__links {
   display: flex;
