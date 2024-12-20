@@ -105,8 +105,8 @@ body {
   background-color: var(--dark-color);
   color: var(--text-color);
   font-family: "flex-rg", Arial, Helvetica, sans-serif;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* 
